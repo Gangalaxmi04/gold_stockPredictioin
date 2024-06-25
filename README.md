@@ -1,8 +1,8 @@
-##Gold Stock Price Analysis and Prediction
+# Gold Stock Price Analysis and Prediction
 Overview
 This repository contains code and analysis for predicting gold stock prices based on historical data. The project includes data preprocessing, feature engineering, model training using linear regression, and generating buy/sell signals based on moving averages. The goal is to build a robust model that can accurately predict gold stock prices and provide actionable trading insights.
 
-#Dataset
+# Dataset
 The dataset contains the following columns:
 
 Date: The date of the stock price record.
@@ -13,21 +13,21 @@ High: The highest price that the gold stock reached on the particular date.
 Low: The lowest price that the gold stock reached on the particular date.
 
 
-#Preprocessing
+# Preprocessing
 The date column is converted to datetime format, and new columns are added to extract the day of the week, month, and year from the date. This helps in performing more detailed time series analysis.
 
 
-#Feature Scaling
+# Feature Scaling
 Standardization is applied to the features using StandardScaler from sklearn.
 
 
-#Model Training
+# Model Training
 A linear regression model is used to predict the gold stock prices. The model's performance is evaluated using Mean Squared Error (MSE) and R-squared (R2) metric.
 Insights
 The model shows good accuracy for both training and testing data, indicating that the model is well-generalized.
 
 
-#Metrics
+# Metrics
 Mean Squared Error (MSE) for training data: 32.58177485819339
 R-squared (R2) for training data: 0.9996286432698391
 Mean Squared Error (MSE) for testing data: 33.10359235189278
