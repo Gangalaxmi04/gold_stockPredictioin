@@ -1,4 +1,4 @@
-#Gold Stock Price Analysis and Prediction
+Gold Stock Price Analysis and Prediction
 Overview
 This repository contains code and analysis for predicting gold stock prices based on historical data. The project includes data preprocessing, feature engineering, model training using linear regression, and generating buy/sell signals based on moving averages. The goal is to build a robust model that can accurately predict gold stock prices and provide actionable trading insights.
 
